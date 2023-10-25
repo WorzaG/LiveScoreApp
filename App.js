@@ -1,12 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { MainContext } from './Context/context';
+
+ // Navigation packages
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+//Pages Components
+import Home from './pages/Home';
+import Sheculde from './pages/Sheculde';
+import { useState } from 'react';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+  const [search,setSearch] = useState("")
+  const data = {
+    search,
+    setSearch
+  }
+  const Tab = createBottomTabNavigator()
+  return (  
+    <MainContext.Provider value={data}>
+      <NavigationContainer> 
+        <Tab.Navigator screenOptions={{headerShown:false}}>
+        <Tab.Screen name="Home" component={Home}/>
+        <Tab.Screen name="Sheculde" component={Sheculde} />
+        </Tab.Navigator>
+      </NavigationContainer>
+    </MainContext.Provider>
   );
 }
 
