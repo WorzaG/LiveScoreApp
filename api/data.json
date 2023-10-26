@@ -1,0 +1,192 @@
+{
+    "events":[
+        {
+            "id":1000,
+            "league": "Avrupa Konferans Ligi",
+            "date":"2023-10-26",
+            "status":"LIVE",
+            "stadium":"Şükrü Saraçoğlu stadyum",
+            "current_time":50,
+            "teams":{
+                "home":{
+                    "name":"Fenerbahçe",
+                    "Image":"",
+                    "country":"Turkey",
+                    "score":[{"count":1,"player":"Michy Batsuhayi","time":42}],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                },
+                "away":{
+                    "name":"Ludogorets",
+                    "Image":"",
+                    "country":"Bulgaria",
+                    "score":[],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id":1001,
+            "league": "Avrupa Konferans Ligi",
+            "date":"2023-10-26",
+            "status":"LIVE",
+            "stadium":"",
+            "current_time":48,
+            "teams":{
+                "home":{
+                    "name":"Ki Klaksvik",
+                    "Image":"",
+                    "country":"Romania",
+                    "score":[{"count":1,"player":"Rene joensen","time":30},{"count":2,"player":"Pall Klettskar","time":44}],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                },
+                "away":{
+                    "name":"Nk Olimpija",
+                    "Image":"",
+                    "country":"Bulgaria",
+                    "score":[],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                }
+            }
+        },{
+            "id":1003,
+            "league": "Avrupa Konferans Ligi",
+            "date":"2023-10-26",
+            "status":"Just_Finished",
+            "stadium":"AZ STADIUM",
+            "current_time":"45",
+            "teams":{
+                "home":{
+                    "name":"AZ",
+                    "Image":"",
+                    "country":"Netherland",
+                    "score":[],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                },
+                "away":{
+                    "name":"Aston Villa",
+                    "Image":"",
+                    "country":"England",
+                    "score":[{"count":1,"player":"Leon Bailey","time":13},{"count":2,"player":"Youri Tielmans","time":23}],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                }
+            }
+        },{
+            "id":1004,
+            "league": "Avrupa Konferans Ligi",
+            "date":"2023-10-26",
+            "status":"Just_Finished",
+            "stadium":"Gent Stadium",
+            "current_time":90,
+            "teams":{
+                "home":{
+                    "name":"Gent",
+                    "Image":"",
+                    "country":"Belgium",
+                    "score":[{"count":1,"player":"Omri Gandelman","time":10}],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                },
+                "away":{
+                    "name":"Breioablik",
+                    "Image":"",
+                    "country":"Izlanda",
+                    "score":[],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                }
+            }
+        },{
+            "id":1000,
+            "league": "Avrupa Konferans Ligi",
+            "date":"2023-10-26",
+            "status":"NOT_START",
+            "stadium":"Aberdeen stadium",
+            "teams":{
+                "home":{
+                    "name":"Aberdeen",
+                    "Image":"",
+                    "country":"Scotchland",
+                    "score":[],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                },
+                "away":{
+                    "name":"PAOK",
+                    "Image":"",
+                    "country":"Greece",
+                    "score":[],
+                    "cards":{
+                        "red":{
+    
+                        },
+                        "yellow":{
+    
+                        }
+                    }
+                }
+            }
+        }
+        
+    ]
+    
+}
